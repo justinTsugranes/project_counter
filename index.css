@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('coronet.woff') format('woff');
+}
+
+body {
+  background-image: url('images/background.jpeg');
+  background-size: cover;
+  font-family: 'MyWebFont', Fallback, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 65px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 40px;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+#counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(246, 17%, 88%, 50%);
+  margin: 200px auto;
+  width: 450px;
+  max-width: 80%;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#increment-btn {
+  background: hsl(358, 83%, 21%);
+}
+
+#increment-btn:hover {
+  background: hsl(358, 83%, 21%, 75%);
+}
+
+#save-btn {
+  background: hsl(178, 83%, 21%);
+}
+
+#save-btn:hover {
+  background: hsl(178, 83%, 21%, 75%);
+}
+
+#reset-btn {
+  background: hsl(39, 89%, 50%);
+}
+
+#reset-btn:hover {
+  background: hsl(39, 89%, 50%, 75%);
+}
