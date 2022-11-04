@@ -1,5 +1,7 @@
 # Celebrity Counter
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c38cc9b-b8c3-4301-9776-1033d0445b41/deploy-status)](https://app.netlify.com/sites/justin-tsugranes-counter/deploys)
+
 This "celebrity counter" is a simple counting app that is built using HTML, CSS, and JavaScript where I learned more about:
 
 - script tags
